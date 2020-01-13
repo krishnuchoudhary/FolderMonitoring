@@ -20,7 +20,7 @@ public class FolderMonitorService implements Job {
 	       public void fileCopyInto() {
 	    	   Path temp = Paths.get("C:/FolderMonitor/temp");
 	    	   
-	    		Path secured = Paths.get("C:/work/secured");
+	    		Path secured = Paths.get("C:/FolderMonitor/secured");
 	    		Date d=new Date();
 	    		System.out.println("The Scheduler run in every 5 Min -------:"+d);
 	    		
