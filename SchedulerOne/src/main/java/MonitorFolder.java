@@ -33,7 +33,7 @@ public class MonitorFolder implements Job {
 
 				System.out.println("Size of Secured Folder is :" + folderSize);
 
-				if (folderSize > 900000){
+				if (folderSize > 1000000){
 
 					archiveOldFiles(src.toString(), arch.toString());
 				}
